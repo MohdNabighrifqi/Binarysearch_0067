@@ -17,4 +17,12 @@ void input()
 		else
 			cout << "\n\nThe array should have minimum 1 and maximum 20 array" << endl;
 	}
+	cout << "\n----------------------\n";
+	cout << " \nEnter Array elements \n";
+	cout << "\n----------------------\n";
+	for (i = 0; i < n; i++)
+	{
+		cout << "<" << (i + 1) << ">";
+		cin >> arr[i];
+	}
 }
