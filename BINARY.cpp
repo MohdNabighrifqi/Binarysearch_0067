@@ -57,3 +57,19 @@ void BinarySearch()
 					 << item << " found at position " << mid + 1;
 				break;
 			}
+			else
+			{
+				if (item < arr[mid])
+				{
+					comp++;
+					ub = mid - 1;
+				}
+				else
+				{
+					comp++;
+					lb = mid + 1;
+				}
+			}
+		}
+	}
+}
