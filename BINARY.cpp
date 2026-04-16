@@ -28,4 +28,22 @@ void input()
 }
 void BinarySearch()
 {
+	char ch;
+	int comp;
+
+	do
+	{
+		// Accept the element to be Searched
+		cout << "\nEnter The Element that You Want to Search : ";
+		int item;
+		cin >> item;
+
+		int lb;
+		int ub;
+		int mid;
+
+		comp = 0;
+		lb = 0;
+		ub = n - 1;
+	}
 }
