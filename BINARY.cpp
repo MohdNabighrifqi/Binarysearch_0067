@@ -4,3 +4,17 @@ using namespace std;
 int arr[20]; // Array
 int n;		 // Many elements that put in into array
 int i;		 // index at array
+
+void input()
+{
+	while (true)
+	{
+		cout << "Enter the Number of elements in the Array : ";
+		cin >> n;
+
+		if ((n > 0) && n <= 20)
+			break;
+		else
+			cout << "\n\nThe array should have minimum 1 and maximum 20 array" << endl;
+	}
+}
