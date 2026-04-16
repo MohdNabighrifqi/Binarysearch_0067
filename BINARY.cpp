@@ -45,5 +45,15 @@ void BinarySearch()
 		comp = 0;
 		lb = 0;
 		ub = n - 1;
-	}
-}
+
+		while (lb <= ub)
+		{
+
+			mid = (lb + ub) / 2;
+			if (arr[mid] == item)
+			{
+				comp++;
+				cout << "\n"
+					 << item << " found at position " << mid + 1;
+				break;
+			}
