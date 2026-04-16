@@ -81,3 +81,10 @@ void BinarySearch()
 
 	} while ((ch == 'y') || (ch == 'Y'));
 }
+
+int main()
+{
+	input();
+	BinarySearch();
+	return 0;
+}
