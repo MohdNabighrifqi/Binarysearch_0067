@@ -78,5 +78,6 @@ void BinarySearch()
 		cout << "\nThe number of comparison is  " << comp << endl;
 		cout << "\nContinue to Search ? (y/n) : ";
 		cin >> ch;
-	}
+
+	} while ((ch == 'y') || (ch == 'Y'));
 }
