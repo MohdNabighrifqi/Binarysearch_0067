@@ -71,5 +71,12 @@ void BinarySearch()
 				}
 			}
 		}
+		if (lb > ub)
+
+			cout << "\n"
+				 << item << " Not found in the array ";
+		cout << "\nThe number of comparison is  " << comp << endl;
+		cout << "\nContinue to Search ? (y/n) : ";
+		cin >> ch;
 	}
 }
